@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style>
+    body {
+         display: flex;
+         flex-flow: row nowrap;
+         align-items: center;
+         background-image: url("https://wallpapercave.com/wp/uSzT8Or.jpg");
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 45px;
+         font-family: Cambria;
+         background-color: rgba(200,100,0,.5); /* Tint color */
+         background-blend-mode: multiply;
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      font-family: Cambria;
+    }
+input[type=text] {
+  width: 100%;
+  padding: 8px 8px;
+  margin: 20px;
+  box-sizing: border-box;
+  font-family: Arial;
+  color: #e67300;
+}
+
+    </style>
+    <div class="center">
+    <h1>URL Shortener&ensp;-&ensp;</h1>
+    <form action="/shortenurl" method="POST">
+      <input type="text" name="url" placeholder="URL..."/>
+    </form>
+    </div>
+  </body>
+</html>
